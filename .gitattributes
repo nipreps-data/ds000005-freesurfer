@@ -4,3 +4,4 @@ README.md annex.largefiles=nothing
 **/scripts/* annex.largefiles=nothing
 **/*.touch annex.largefiles=nothing
 **/*.stats annex.largefiles=nothing
+**/*.label annex.largefiles=nothing
