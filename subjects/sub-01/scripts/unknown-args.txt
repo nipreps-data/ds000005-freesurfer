@@ -1,0 +1,6 @@
+-sd
+subjects
+-s
+sub-01
+-i
+sourcedata/ds000005/sub-01/anat/sub-01_T1w.nii.gz
