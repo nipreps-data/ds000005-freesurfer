@@ -1,2 +1,6 @@
-* annex.backend=MD5E
+* annex.backend=BLAKE2B160E
 **/.git* annex.largefiles=nothing
+README.md annex.largefiles=nothing
+**/scripts/* annex.largefiles=nothing
+**/*.touch annex.largefiles=nothing
+**/*.stats annex.largefiles=nothing
