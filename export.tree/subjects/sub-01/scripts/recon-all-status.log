@@ -1,0 +1,91 @@
+status file for recon-all
+Mon Dec  4 21:50:10 EST 2023
+recon-all -s sub-01 finished without error at Mon Dec  4 21:50:11 EST 2023
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Mon Dec  4 21:52:52 EST 2023
+#@# MotionCor Mon Dec  4 21:52:52 EST 2023
+#@# Talairach Mon Dec  4 21:52:58 EST 2023
+#@# Talairach Failure Detection Mon Dec  4 21:55:49 EST 2023
+#@# Nu Intensity Correction Mon Dec  4 21:55:49 EST 2023
+#@# Intensity Normalization Mon Dec  4 21:58:39 EST 2023
+#@# Skull Stripping Mon Dec  4 21:59:40 EST 2023
+#@# EM Registration Mon Dec  4 22:01:57 EST 2023
+#@# CA Normalize Mon Dec  4 22:03:31 EST 2023
+#@# CA Reg Mon Dec  4 22:04:18 EST 2023
+#@# SubCort Seg Mon Dec  4 22:41:59 EST 2023
+#@# CC Seg Mon Dec  4 23:05:37 EST 2023
+#@# Merge ASeg Mon Dec  4 23:06:01 EST 2023
+#@# Intensity Normalization2 Mon Dec  4 23:06:01 EST 2023
+#@# Mask BFS Mon Dec  4 23:07:37 EST 2023
+#@# WM Segmentation Mon Dec  4 23:07:38 EST 2023
+#@# Fill Mon Dec  4 23:09:13 EST 2023
+#@# Tessellate lh Mon Dec  4 23:09:58 EST 2023
+#@# Tessellate rh Mon Dec  4 23:10:01 EST 2023
+#@# Smooth1 lh Mon Dec  4 23:10:04 EST 2023
+#@# Smooth1 rh Mon Dec  4 23:10:04 EST 2023
+#@# Inflation1 lh Mon Dec  4 23:10:06 EST 2023
+#@# Inflation1 rh Mon Dec  4 23:10:06 EST 2023
+#@# QSphere lh Mon Dec  4 23:10:15 EST 2023
+#@# QSphere rh Mon Dec  4 23:10:15 EST 2023
+#@# Fix Topology lh Mon Dec  4 23:11:19 EST 2023
+#@# Fix Topology rh Mon Dec  4 23:11:19 EST 2023
+#@# Smooth2 lh Mon Dec  4 23:22:18 EST 2023
+#@# Smooth2 rh Mon Dec  4 23:22:18 EST 2023
+#@# Inflation2 lh Mon Dec  4 23:22:20 EST 2023
+#@# Inflation2 rh Mon Dec  4 23:22:20 EST 2023
+#@# Curv .H and .K lh Mon Dec  4 23:22:31 EST 2023
+#@# Curv .H and .K rh Mon Dec  4 23:22:31 EST 2023
+#@# Sphere lh Mon Dec  4 23:23:08 EST 2023
+#@# Sphere rh Mon Dec  4 23:23:08 EST 2023
+#@# Surf Reg lh Mon Dec  4 23:28:49 EST 2023
+#@# Surf Reg rh Mon Dec  4 23:28:49 EST 2023
+#@# Jacobian white lh Mon Dec  4 23:34:21 EST 2023
+#@# Jacobian white rh Mon Dec  4 23:34:21 EST 2023
+#@# AvgCurv lh Mon Dec  4 23:34:22 EST 2023
+#@# AvgCurv rh Mon Dec  4 23:34:22 EST 2023
+#@# Cortical Parc lh Mon Dec  4 23:34:22 EST 2023
+#@# Cortical Parc rh Mon Dec  4 23:34:22 EST 2023
+#@# white curv lh Mon Dec  4 23:42:21 EST 2023
+#@# white area lh Mon Dec  4 23:42:22 EST 2023
+#@# pial curv lh Mon Dec  4 23:42:23 EST 2023
+#@# pial area lh Mon Dec  4 23:42:24 EST 2023
+#@# thickness lh Mon Dec  4 23:42:24 EST 2023
+#@# area and vertex vol lh Mon Dec  4 23:42:47 EST 2023
+#@# white curv rh Mon Dec  4 23:42:48 EST 2023
+#@# white area rh Mon Dec  4 23:42:50 EST 2023
+#@# pial curv rh Mon Dec  4 23:42:50 EST 2023
+#@# pial area rh Mon Dec  4 23:42:51 EST 2023
+#@# thickness rh Mon Dec  4 23:42:52 EST 2023
+#@# area and vertex vol rh Mon Dec  4 23:43:15 EST 2023
+#@# Curvature Stats lh Mon Dec  4 23:43:16 EST 2023
+#@# Curvature Stats rh Mon Dec  4 23:43:18 EST 2023
+#@# Cortical ribbon mask Mon Dec  4 23:43:20 EST 2023
+#@# Cortical Parc 2 lh Mon Dec  4 23:46:44 EST 2023
+#@# Cortical Parc 2 rh Mon Dec  4 23:46:44 EST 2023
+#@# Cortical Parc 3 lh Mon Dec  4 23:46:55 EST 2023
+#@# Cortical Parc 3 rh Mon Dec  4 23:46:55 EST 2023
+#@# WM/GM Contrast lh Mon Dec  4 23:47:03 EST 2023
+#@# WM/GM Contrast rh Mon Dec  4 23:47:03 EST 2023
+#@# Relabel Hypointensities Mon Dec  4 23:47:05 EST 2023
+#@# APas-to-ASeg Mon Dec  4 23:47:16 EST 2023
+#@# AParc-to-ASeg aparc Mon Dec  4 23:47:23 EST 2023
+#@# AParc-to-ASeg aparc.a2009s Mon Dec  4 23:48:01 EST 2023
+#@# AParc-to-ASeg aparc.DKTatlas Mon Dec  4 23:48:38 EST 2023
+#@# WMParc Mon Dec  4 23:49:15 EST 2023
+#@# Parcellation Stats lh Mon Dec  4 23:52:13 EST 2023
+#@# Parcellation Stats rh Mon Dec  4 23:52:13 EST 2023
+#@# Parcellation Stats 2 lh Mon Dec  4 23:52:23 EST 2023
+#@# Parcellation Stats 2 rh Mon Dec  4 23:52:23 EST 2023
+#@# Parcellation Stats 3 lh Mon Dec  4 23:52:32 EST 2023
+#@# Parcellation Stats 3 rh Mon Dec  4 23:52:32 EST 2023
+#@# ASeg Stats Mon Dec  4 23:52:40 EST 2023
+#@# BA_exvivo Labels lh Mon Dec  4 23:53:09 EST 2023
+#@# BA_exvivo Labels rh Mon Dec  4 23:54:01 EST 2023
+recon-all -s sub-01 finished without error at Mon Dec  4 23:54:56 EST 2023
