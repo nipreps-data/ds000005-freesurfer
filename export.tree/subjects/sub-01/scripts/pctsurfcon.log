@@ -1,0 +1,15 @@
+Logfile for pctsurfcon
+cd /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/scripts
+Mon Dec  4 23:47:03 EST 2023
+/usr/local/freesurfer/7.4.1/bin/pctsurfcon
+setenv SUBJECTS_DIR /data/nipreps-data/ds000005-freesurfer/subjects
+pctsurfcon 7.4.1
+cd /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/scripts
+Linux church 6.2.0-37-generic #38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+/usr/local/freesurfer/7.4.1/bin/pctsurfcon
+FREESURFER_HOME /usr/local/freesurfer/7.4.1
+pctsurfcon 7.4.1
+Linux church 6.2.0-37-generic #38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /usr/local/freesurfer/7.4.1
+Cleaning up
+Cleaning up
