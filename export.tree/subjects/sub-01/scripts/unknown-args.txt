@@ -1,0 +1,8 @@
+-sd
+subjects
+-s
+sub-01
+-all
+-parallel
+-threads
+10
