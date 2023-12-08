@@ -1,0 +1,75 @@
+Log file for defect2seg
+Mon Dec  4 23:14:51 EST 2023
+
+setenv SUBJECTS_DIR /data/nipreps-data/ds000005-freesurfer/subjects
+cd /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/scripts
+/usr/local/freesurfer/7.4.1/bin/defect2seg --s sub-01 --cortex
+
+freesurfer-linux-ubuntu22_x86_64-7.4.1-20230614-7eb8460
+defect2seg 7.4.1
+Linux church 6.2.0-37-generic #38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+pid 515361
+mri_label2label --label-cortex /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.orig.nofix /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/aseg.presurf.mgz 0 /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/lh.nofix.cortex.label
+
+ Generating cortex label... RemoveHipAmgy=0
+ NucAccIsMedialWall=0
+ mris->useRealRAS=0
+10 non-cortical segments detected
+only using segment with 6838 vertices
+erasing segment 1 (vno[0] = 64182)
+erasing segment 2 (vno[0] = 80218)
+erasing segment 3 (vno[0] = 80378)
+erasing segment 4 (vno[0] = 84802)
+erasing segment 5 (vno[0] = 84856)
+erasing segment 6 (vno[0] = 86424)
+erasing segment 7 (vno[0] = 87503)
+erasing segment 8 (vno[0] = 92142)
+erasing segment 9 (vno[0] = 93709)
+mri_label2vol --defects /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.orig.nofix /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.defect_labels /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/orig.mgz 1000 0 /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/surface.defects.mgz /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/lh.nofix.cortex.label
+mri_label2vol supposed to be reproducible but seed not set
+Contraining to label /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/lh.nofix.cortex.label
+Changing input type 0 to MRI_INT
+Converting defects to volume: offset=1000, merge=0
+Writing to /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/surface.defects.mgz
+mris_defects_pointset -s /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.orig.nofix -d /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.defect_labels -o /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.defects.pointset --label /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/lh.nofix.cortex.label
+Reading in surface /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.orig.nofix
+Reading in defect segmentation /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/lh.defect_labels
+Reading in label /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/lh.nofix.cortex.label
+#VMPC# mris_defects_pointset 1368788
+mris_defects_pointset done
+mri_label2label --label-cortex /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.orig.nofix /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/aseg.presurf.mgz 0 /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/rh.nofix.cortex.label
+
+ Generating cortex label... RemoveHipAmgy=0
+ NucAccIsMedialWall=0
+ mris->useRealRAS=0
+11 non-cortical segments detected
+only using segment with 7083 vertices
+erasing segment 1 (vno[0] = 41227)
+erasing segment 2 (vno[0] = 49976)
+erasing segment 3 (vno[0] = 58721)
+erasing segment 4 (vno[0] = 83628)
+erasing segment 5 (vno[0] = 86337)
+erasing segment 6 (vno[0] = 89035)
+erasing segment 7 (vno[0] = 89130)
+erasing segment 8 (vno[0] = 89145)
+erasing segment 9 (vno[0] = 89163)
+erasing segment 10 (vno[0] = 89952)
+mri_label2vol --defects /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.orig.nofix /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.defect_labels /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/surface.defects.mgz 2000 1 /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/surface.defects.mgz /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/rh.nofix.cortex.label
+mri_label2vol supposed to be reproducible but seed not set
+Contraining to label /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/rh.nofix.cortex.label
+Converting defects to volume: offset=2000, merge=1
+Writing to /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/mri/surface.defects.mgz
+mris_defects_pointset -s /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.orig.nofix -d /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.defect_labels -o /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.defects.pointset --label /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/rh.nofix.cortex.label
+Reading in surface /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.orig.nofix
+Reading in defect segmentation /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/surf/rh.defect_labels
+Reading in label /data/nipreps-data/ds000005-freesurfer/subjects/sub-01/label/rh.nofix.cortex.label
+#VMPC# mris_defects_pointset 1367572
+mris_defects_pointset done
+ 
+Started at Mon Dec 4 23:14:51 EST 2023 
+Ended   at Mon Dec  4 23:15:15 EST 2023
+Defect2seg-Run-Time-Sec 24
+Defect2seg-Run-Time-Min 0.48
+Defect2seg-Run-Time-Hours 0.01
+ 
+defect2seg Done
